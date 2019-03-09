@@ -55,50 +55,47 @@ export default {
         location2: "25-60 minutes drive to/from Montréal/Boisvert and Fils Water Airport.",
         location3: "We are located in the heart of Montreal's entertainment district and a short walk from Jazz Fest, Just for Laughs, Club Soda, Berri Theater, SAT (Society For Art andTechnology) Metropolis, Olympia Theater and much more."
           },
-          slides: [
-            {pic: require('../assets/auberge01.jpg')},
-            {pic: require('../assets/auberge02.jpg')},
-            {pic: require('../assets/auberge03.jpg')},
-            {pic: require('../assets/auberge04.jpg')},
-            {pic: require('../assets/auberge05.jpg')},
-            {pic: require('../assets/auberge06.jpg')},
-            {pic: require('../assets/auberge07.jpg')}
-            ],
-           suites : [
-            {name: "Suite 201", 
-            link: "https://www.airbnb.ca/rooms/18287687",
-            sleeps: "Accomodates 4",
-            buttonFR: "FRENCH",
-            pic: require('../assets/suite201.jpg')},
-            {name: "Suite 202", 
-            link: "https://www.airbnb.ca/rooms/show/18287017",
-            sleeps: "Accomodates 4",
-            buttonFR: "FRENCH",
-            pic: require('../assets/suite202.jpg')},
-            {name: "Suite 203", 
-            link: "https://www.airbnb.ca/rooms/show/18506381",
-            sleeps: "Accomodates 5",
-            buttonFR: "FRENCH",
-            pic: require('../assets/suite203.jpg')},
-            {name: "Suite 301", 
-            link: "https://www.airbnb.ca/rooms/show/18747598",
-            sleeps: "Accomodates 4",
-            buttonFR: "FRENCH",
-            pic: require('../assets/suite301.jpg')},
-            {name: "Suite 302", 
-            link: "https://www.airbnb.ca/rooms/show/18747398",
-            sleeps: "Accomodates 4",
-            buttonFR: "FRENCH",
-            pic: require('../assets/suite302.jpg')},
-            {name: "Suite 303", 
-            link: "https://www.airbnb.ca/rooms/show/18746943",
-            sleeps: "Accomodates 5",
-            buttonFR: "FRENCH",
-            pic: require('../assets/suite303.jpg')}
+        slides: [
+          {pic: require('../assets/auberge01.jpg')},
+          {pic: require('../assets/auberge02.jpg')},
+          {pic: require('../assets/auberge03.jpg')},
+          {pic: require('../assets/auberge04.jpg')},
+          {pic: require('../assets/auberge05.jpg')},
+          {pic: require('../assets/auberge06.jpg')},
+          {pic: require('../assets/auberge07.jpg')}
           ],
-          location:{
-            text1: "Blerg"
-          }
+         suites : [
+          {name: "Suite 201", 
+          link: "https://www.airbnb.ca/rooms/18287687",
+          sleeps: "Accomodates 4",
+          buttonFR: "FRENCH",
+          pic: require('../assets/suite201.jpg')},
+          {name: "Suite 202", 
+          link: "https://www.airbnb.ca/rooms/show/18287017",
+          sleeps: "Accomodates 4",
+          buttonFR: "FRENCH",
+          pic: require('../assets/suite202.jpg')},
+          {name: "Suite 203", 
+          link: "https://www.airbnb.ca/rooms/show/18506381",
+          sleeps: "Accomodates 5",
+          buttonFR: "FRENCH",
+          pic: require('../assets/suite203.jpg')},
+          {name: "Suite 301", 
+          link: "https://www.airbnb.ca/rooms/show/18747598",
+          sleeps: "Accomodates 4",
+          buttonFR: "FRENCH",
+          pic: require('../assets/suite301.jpg')},
+          {name: "Suite 302", 
+          link: "https://www.airbnb.ca/rooms/show/18747398",
+          sleeps: "Accomodates 4",
+          buttonFR: "FRENCH",
+          pic: require('../assets/suite302.jpg')},
+          {name: "Suite 303", 
+          link: "https://www.airbnb.ca/rooms/show/18746943",
+          sleeps: "Accomodates 5",
+          buttonFR: "FRENCH",
+          pic: require('../assets/suite303.jpg')}
+          ]
         }
       }
 };
@@ -124,15 +121,13 @@ img{
 
 @media only screen 
   and (max-width: 1280px) {
+  .flickity{
+    height:225px;
+  }
 
-.flickity{
-  height:225px;
-}
-
-.carousel-cell{
-  width: 400px;
-}
-
+  .carousel-cell{
+    width: 400px;
+  }
 }
 
 
@@ -146,12 +141,10 @@ img{
   .carousel-cell{
     width: 350px;
   }
-
 }
 
 @media only screen 
   and (max-width: 900px) {
-
   .flickity{
     height:150px;
   }
@@ -170,14 +163,12 @@ img{
     height:250px;
   }
 
-.carousel-cell{
-  width: 100%;
-}
+  .carousel-cell{
+    width: 100%;
+  }
 
-img{
-  width: 100%;
-}
-
-
+  img{
+    width: 100%;
+  }
 }
 </style>

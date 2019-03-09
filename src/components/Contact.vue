@@ -54,11 +54,11 @@ section{
 
 .contactForm{
 	padding: 25px 0px;
-		width: 300px;
-		background-color: #4C524F;
-		border: 1px solid #5A5A5A;
-		border-radius: 3px;
-		margin: 0 auto;
+	width: 300px;
+	background-color: #4C524F;
+	border: 1px solid #5A5A5A;
+	border-radius: 3px;
+	margin: 0 auto;
 }
 
 
@@ -78,25 +78,24 @@ button{
 textarea{
 	width: 250px;
 }
+
 form{
 display: flex;
 flex-direction: column;
 align-items: center;
-
 }
 
 
 @media only screen /* iPhone 6, 6S, 7 and 8 */
   and (max-width: 500px)  {
-.contactText{
-	margin: 15px 15px;
+	.contactText{
+		margin: 15px 15px;
+	}
+
+	.contactForm {
+	     padding: 5px 0px; 
+
+	}
 }
-
-.contactForm {
-     padding: 5px 0px; 
-
-}
-
-  }
 
 </style>

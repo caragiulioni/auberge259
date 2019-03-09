@@ -10,7 +10,6 @@
   	<div class="book"><a href="https://www.airbnb.ca/users/126452184/listings"><h2>{{ en.book }}</h2></a></div>
   	<div class="spacer"></div>
   </div>
-
 </template>
 
 <script>
@@ -44,10 +43,9 @@ export default {
 .book a{
 	text-decoration: none;
 }
+
 a{
-	color: #EAEAEA;
-}
-a{
+color: #EAEAEA;
 transition: .3s;
 }
 
@@ -76,24 +74,25 @@ li{
 
 @media only screen /* iPhone 6, 6S, 7 and 8 */
   and (max-width: 700px)  {
-  	h2{
-	text-align: right;
+	h2{
+		text-align: right;
 	}
+
 	.spacer{
-  	display: none;
-  	}
-  	.header{
-	grid-template-columns: 1fr 1fr;
-	padding: 15px;
+		display: none;
+	}
+			
+	.header{
+		grid-template-columns: 1fr 1fr;
+		padding: 15px;
 	}
 
 	ul{
-	text-align: left;
+		text-align: left;
 	}
+
 	nav{
-	margin-top: 0;
-
-
+		margin-top: 0;
 	}
-  }
+}
 </style>
