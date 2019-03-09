@@ -41,6 +41,9 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
+a{
+	font-size: 	1em;
+}
 section{
 	background: url("../assets/tile.png");
 }
@@ -89,7 +92,10 @@ align-items: center;
 	margin: 15px 15px;
 }
 
+.contactForm {
+     padding: 5px 0px; 
 
+}
 
   }
 

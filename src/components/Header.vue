@@ -38,6 +38,7 @@ export default {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	align-items: center;
+	padding: 25px 0px;
 }
 
 .book a{
@@ -55,8 +56,6 @@ a:hover{
 }
 
 nav{
-	padding-top: 5vh;
-	padding-bottom: 5vh;
 }
 
 h2{
@@ -68,6 +67,7 @@ ul{
 }
 
 li{
+	font-size: 1.1em;
 	padding: 0px 5px;
 	font-weight: 200;
     text-decoration: underline;
@@ -84,15 +84,15 @@ li{
   	}
   	.header{
 	grid-template-columns: 1fr 1fr;
+	padding: 15px;
 	}
 
 	ul{
 	text-align: left;
 	}
 	nav{
-		margin-top: 0;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	margin-top: 0;
+
 
 	}
   }
