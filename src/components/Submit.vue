@@ -18,14 +18,14 @@ export default {
 <style scoped>
 
   button{
-    border: none;
+ 
         font-weight: bold;
 
   }
   
   .button{
     margin: 10px;
-        font-weight: bold;
+    font-weight: bold;
   }
 
 

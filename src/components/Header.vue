@@ -7,14 +7,14 @@
 	    	<li><a href="#Contact">CONTACT</a></li>
     	</ul> 
     </nav>
-  	<div class="book"><a href="https://www.airbnb.ca/users/126452184/listings"><h2>{{ en.book }}</h2></a></div>
+  	<div class="book"><a href="https://www.airbnb.ca/users/126452184/listings"><h2>{{ lang.book }}</h2></a></div>
   	<div class="spacer"></div>
   </div>
 </template>
 
 <script>
 export default {
-    props:['en'],
+    props:['lang'],
       data () {
       return {
 

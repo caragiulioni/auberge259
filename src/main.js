@@ -5,6 +5,7 @@ import App from './App'
 import router from './router'
 import FR from './components/FR.vue'
 import EN from './components/EN.vue'
+import Thanks from './components/Thanks.vue'
 import Header from './components/Header.vue'
 import Landing from './components/Landing.vue'
 import Suites from './components/Suites.vue'
@@ -33,6 +34,7 @@ Vue.component('location', Location)
 Vue.component('contact', Contact)
 Vue.component('submit', Submit)
 Vue.component('footerinfo', FooterInfo)
+Vue.component('thanks', Thanks)
 
 
 /* eslint-disable no-new */

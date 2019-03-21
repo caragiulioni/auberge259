@@ -1,6 +1,6 @@
 <template>
   <div class="FR">
-    <headerbar v-bind:en="lang"></headerbar>
+    <headerbar v-bind:lang="lang"></headerbar>
     <landing aria-hidden='true'></landing>
     <info v-bind:lang="lang"></info>
     <flickity aria-hidden="true" v-bind:slides="slides" class="flickity" ref="flickity" :options="flickityOptions">
@@ -68,32 +68,26 @@ export default {
           {name: "Suite 201", 
           link: "https://www.airbnb.ca/rooms/18287687",
           sleeps: "Pour 4 Personnes",
-          buttonFR: "FRENCH",
           pic: require('../assets/suite201.jpg')},
           {name: "Suite 202", 
           link: "https://www.airbnb.ca/rooms/show/18287017",
           sleeps: "Pour 4 Personnes",
-          buttonFR: "FRENCH",
           pic: require('../assets/suite202.jpg')},
           {name: "Suite 203", 
           link: "https://www.airbnb.ca/rooms/show/18506381",
           sleeps: "Pour 5 Personnes",
-          buttonFR: "FRENCH",
           pic: require('../assets/suite203.jpg')},
           {name: "Suite 301", 
           link: "https://www.airbnb.ca/rooms/show/18747598",
           sleeps: "Pour 4 Personnes",
-          buttonFR: "FRENCH",
           pic: require('../assets/suite301.jpg')},
           {name: "Suite 302", 
           link: "https://www.airbnb.ca/rooms/show/18747398",
           sleeps: "Pour 4 Personnes",
-          buttonFR: "FRENCH",
           pic: require('../assets/suite302.jpg')},
           {name: "Suite 303", 
           link: "https://www.airbnb.ca/rooms/show/18746943",
           sleeps: "Pour 5 Personnes",
-          buttonFR: "FRENCH",
           pic: require('../assets/suite303.jpg')}
           ]
         }

@@ -3,7 +3,7 @@
   	<section>
   		<div class="headings"><a name="Contact"><h2>Contact</h2></a></div>
   			<div class="contactForm">
-				<form id="contact_form" action="http://www.focuspocus.io/magic/caragiulioni@gmail.com" method="POST" enctype="multipart/form-data">
+				<form id="contact_form" action="http://www.focuspocus.io/magic/johnhatzmtl@gmail.com" method="POST" enctype="multipart/form-data">
 					<div class="inputs">
 						<label for="name">{{ lang.name }}</label><br />
 						<input id="name" class="input" name="name" type="text" value="" size="30" required oninvalid="this.setCustomValidity('Votre nom SVP / Your name please')" oninput="this.setCustomValidity('')" /><br />

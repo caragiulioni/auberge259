@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import FR from '@/components/FR'
 import EN from '@/components/EN'
+import Thanks from '@/components/Thanks'
 
 
 Vue.use(Router)
@@ -17,6 +18,11 @@ export default new Router({
       path: '/EN',
       name: 'EN',
       component: EN
+    },
+    {
+      path: '/thanks',
+      name: 'Thanks',
+      component: Thanks
     }
   ]
 })

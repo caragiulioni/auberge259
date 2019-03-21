@@ -1,6 +1,6 @@
 <template>
   <div class="FR">
-    <headerbar v-bind:en="lang"></headerbar>
+    <headerbar v-bind:lang="lang"></headerbar>
     <landing aria-hidden='true'></landing>
     <info v-bind:lang="lang"></info>
     <flickity aria-hidden="true" v-bind:slides="slides" class="flickity" ref="flickity" :options="flickityOptions">
