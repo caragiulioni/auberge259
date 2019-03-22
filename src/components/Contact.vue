@@ -3,18 +3,18 @@
   	<section>
   		<div class="headings"><a name="Contact"><h2>Contact</h2></a></div>
   			<div class="contactForm">
-				<form id="contact_form" action="http://www.focuspocus.io/magic/johnhatzmtl@gmail.com" method="POST" enctype="multipart/form-data">
+				<form id="contact_form" action="https://formspree.io/johnhatzmtl@gmail.com" method="POST" enctype="multipart/form-data">
 					<div class="inputs">
 						<label for="name">{{ lang.name }}</label><br />
-						<input id="name" class="input" name="name" type="text" value="" size="30" required oninvalid="this.setCustomValidity('Votre nom SVP / Your name please')" oninput="this.setCustomValidity('')" /><br />
+						<input id="name" class="input" name="name" type="text" value="" size="30" required/><br />
 					</div>	
 					<div class="inputs">
 						<label for="email">{{ lang.email }}</label><br />
-						<input id="email" class="input" name="email" type="text" value="" size="30" required oninvalid="this.setCustomValidity('Votre email SVP / Your email please')" oninput="this.setCustomValidity('')" /><br/>
+						<input id="email" class="input" name="email" type="text" value="" size="30" required/><br/>
 					</div>
 					<div class="inputs">
 						<label for="message">{{ lang.message }}</label><br />
-						<textarea id="message" class="input" name="message" required oninvalid="this.setCustomValidity('Votre message SVP / Your message please')" oninput="this.setCustomValidity('')" ></textarea><br />
+						<textarea id="message" class="input" name="message" required></textarea><br />
 					</div>
 					<div class="">
 						<submit v-bind:lang="lang"></submit>
