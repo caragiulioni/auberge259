@@ -13,7 +13,7 @@ import Info from './components/Info.vue'
 import Button from './components/Button.vue'
 import Location from './components/Location.vue'
 import Contact from './components/Contact.vue'
-import Submit from './components/submit.vue'
+import Submit from './components/Submit.vue'
 import FooterInfo from './components/FooterInfo.vue'
 
 Vue.config.productionTip = false
