@@ -35,7 +35,7 @@
 			</div>
 	  	</div>
     </div>
-    </div>
+  </div>
 </div>
 </template>
 
@@ -95,16 +95,14 @@ i{
   	.info{
   		grid-template-columns: 1fr;	
 
-}
+	}
 
-.text{
-	margin-top: 10px;
-}
-.iconStyle{
-	margin: 0 auto;
-	
-
-  }
+	.text{
+		margin-top: 10px;
+	}
+	.iconStyle{
+		margin: 0 auto;
+	  }
 
 }
 

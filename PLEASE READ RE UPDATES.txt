@@ -1,9 +1,0 @@
-All data sets exist in the APP component \src\App.vue. 
-
-For simple maintenence (photo updates, text adjustments) all 
-information can be updated in the data set related to it's 
-relative language.
-
-
-
-Questions? email me caragiulioni@gmail.com

@@ -55,7 +55,8 @@ h1, h2 {
 }
 
 h2{
-  padding: 5px 0px;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 ul {
   list-style-type: none;
@@ -79,7 +80,7 @@ button{
 }
 
 .headings{
- padding: 5px 0px 5px 0px;
+  padding: 25px 0px 25px 0px;
   border-bottom: 1px solid #5A5A5A;
   border-top: 1px solid #5A5A5A;
   background-color: #4C524F;

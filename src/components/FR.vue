@@ -1,6 +1,6 @@
 <template>
   <div class="FR">
-    <headerbar v-bind:en="lang"></headerbar>
+    <headerbar v-bind:lang="lang"></headerbar>
     <landing aria-hidden='true'></landing>
     <info v-bind:lang="lang"></info>
     <flickity aria-hidden="true" v-bind:slides="slides" class="flickity" ref="flickity" :options="flickityOptions">
@@ -35,12 +35,12 @@ export default {
       },
         lang:{
         book: 'réservez maintenant',
-        button: "book now",
+        button: "réservez",
         kitchen: "Cuisines Complètes ",
         workspaces: "Espaces de Travail ",
         wifi: "Wifi Haute Vitesse",
         ac: "Climatisation",
-        submit: "Accueille ",
+        submit: "Envoyer",
         name: "Nom",
         email: "Email",
         message: "Message",
@@ -55,46 +55,40 @@ export default {
         location2: "25-60 minutes en voiture de / vers l'aéroport de Montréal / Boisvert et Fils.",
         location3: "Nous sommes situés au cœur du quartier des divertissements de Montréal et à quelques pas du Festival de jazz, Juste pour rire, du Club Soda, du Théâtre Berri, du MTelus, de la SAT (Société d’art et de technologie), du Théâtre Olympia,  du Newspeak et bien plus encore."
           },
-          slides: [
-            {pic: require('../assets/auberge01.jpg')},
-            {pic: require('../assets/auberge02.jpg')},
-            {pic: require('../assets/auberge03.jpg')},
-            {pic: require('../assets/auberge04.jpg')},
-            {pic: require('../assets/auberge05.jpg')},
-            {pic: require('../assets/auberge06.jpg')},
-            {pic: require('../assets/auberge07.jpg')}
-            ],
-           suites : [
-            {name: "Suite 201", 
-            link: "https://www.airbnb.ca/rooms/18287687",
-            sleeps: "Accomodates 4",
-            buttonFR: "FRENCH",
-            pic: require('../assets/suite201.jpg')},
-            {name: "Suite 202", 
-            link: "https://www.airbnb.ca/rooms/show/18287017",
-            sleeps: "Accomodates 4",
-            buttonFR: "FRENCH",
-            pic: require('../assets/suite202.jpg')},
-            {name: "Suite 203", 
-            link: "https://www.airbnb.ca/rooms/show/18506381",
-            sleeps: "Accomodates 5",
-            buttonFR: "FRENCH",
-            pic: require('../assets/suite203.jpg')},
-            {name: "Suite 301", 
-            link: "https://www.airbnb.ca/rooms/show/18747598",
-            sleeps: "Accomodates 4",
-            buttonFR: "FRENCH",
-            pic: require('../assets/suite301.jpg')},
-            {name: "Suite 302", 
-            link: "https://www.airbnb.ca/rooms/show/18747398",
-            sleeps: "Accomodates 4",
-            buttonFR: "FRENCH",
-            pic: require('../assets/suite302.jpg')},
-            {name: "Suite 303", 
-            link: "https://www.airbnb.ca/rooms/show/18746943",
-            sleeps: "Accomodates 5",
-            buttonFR: "FRENCH",
-            pic: require('../assets/suite303.jpg')}
+        slides: [
+          {pic: require('../assets/auberge01.jpg')},
+          {pic: require('../assets/auberge02.jpg')},
+          {pic: require('../assets/auberge03.jpg')},
+          {pic: require('../assets/auberge04.jpg')},
+          {pic: require('../assets/auberge05.jpg')},
+          {pic: require('../assets/auberge06.jpg')},
+          {pic: require('../assets/auberge07.jpg')}
+          ],
+         suites : [
+          {name: "Suite 201", 
+          link: "https://www.airbnb.ca/rooms/18287687",
+          sleeps: "Pour 4 Personnes",
+          pic: require('../assets/suite201.jpg')},
+          {name: "Suite 202", 
+          link: "https://www.airbnb.ca/rooms/show/18287017",
+          sleeps: "Pour 4 Personnes",
+          pic: require('../assets/suite202.jpg')},
+          {name: "Suite 203", 
+          link: "https://www.airbnb.ca/rooms/show/18506381",
+          sleeps: "Pour 5 Personnes",
+          pic: require('../assets/suite203.jpg')},
+          {name: "Suite 301", 
+          link: "https://www.airbnb.ca/rooms/show/18747598",
+          sleeps: "Pour 4 Personnes",
+          pic: require('../assets/suite301.jpg')},
+          {name: "Suite 302", 
+          link: "https://www.airbnb.ca/rooms/show/18747398",
+          sleeps: "Pour 4 Personnes",
+          pic: require('../assets/suite302.jpg')},
+          {name: "Suite 303", 
+          link: "https://www.airbnb.ca/rooms/show/18746943",
+          sleeps: "Pour 5 Personnes",
+          pic: require('../assets/suite303.jpg')}
           ]
         }
       }
@@ -118,18 +112,15 @@ img{
   width: 100%;
 }
 
-
 @media only screen 
   and (max-width: 1280px) {
+  .flickity{
+    height:225px;
+  }
 
-.flickity{
-  height:225px;
-}
-
-.carousel-cell{
-  width: 400px;
-}
-
+  .carousel-cell{
+    width: 400px;
+  }
 }
 
 
@@ -167,14 +158,13 @@ img{
     height:250px;
   }
 
-.carousel-cell{
-  width: 100%;
-}
+  .carousel-cell{
+    width: 100%;
+  }
 
-img{
-  width: 100%;
-}
-
+  img{
+    width: 100%;
+  }
 
 }
 </style>

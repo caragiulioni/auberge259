@@ -7,15 +7,14 @@
 	    	<li><a href="#Contact">CONTACT</a></li>
     	</ul> 
     </nav>
-  	<div class="book"><a href="https://www.airbnb.ca/users/126452184/listings"><h2>{{ en.book }}</h2></a></div>
+  	<div class="book"><a href="https://www.airbnb.ca/users/126452184/listings"><h2>{{ lang.book }}</h2></a></div>
   	<div class="spacer"></div>
   </div>
-
 </template>
 
 <script>
 export default {
-    props:['en'],
+    props:['lang'],
       data () {
       return {
 
@@ -38,15 +37,15 @@ export default {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	align-items: center;
+	padding: 25px 0px;
 }
 
 .book a{
 	text-decoration: none;
 }
+
 a{
-	color: #EAEAEA;
-}
-a{
+color: #EAEAEA;
 transition: .3s;
 }
 
@@ -55,8 +54,6 @@ a:hover{
 }
 
 nav{
-	padding-top: 5vh;
-	padding-bottom: 5vh;
 }
 
 h2{
@@ -68,6 +65,7 @@ ul{
 }
 
 li{
+	font-size: 1.1em;
 	padding: 0px 5px;
 	font-weight: 200;
     text-decoration: underline;
@@ -76,24 +74,25 @@ li{
 
 @media only screen /* iPhone 6, 6S, 7 and 8 */
   and (max-width: 700px)  {
-  	h2{
-	text-align: right;
+	h2{
+		text-align: right;
 	}
+
 	.spacer{
-  	display: none;
-  	}
-  	.header{
-	grid-template-columns: 1fr 1fr;
+		display: none;
+	}
+			
+	.header{
+		grid-template-columns: 1fr 1fr;
+		padding: 15px;
 	}
 
 	ul{
-	text-align: left;
+		text-align: left;
 	}
+
 	nav{
 		margin-top: 0;
-	padding-top: 15px;
-	padding-bottom: 15px;
-
 	}
-  }
+}
 </style>

@@ -3,7 +3,7 @@
   	<section>
   		<div class="headings"><a name="Contact"><h2>Contact</h2></a></div>
   			<div class="contactForm">
-				<form id="contact_form" action="http://www.focuspocus.io/magic/caragiulioni@gmail.com" method="POST" enctype="multipart/form-data">
+				<form id="contact_form" action="http://www.focuspocus.io/magic/johnhatzmtl@gmail.com" method="POST" enctype="multipart/form-data">
 					<div class="inputs">
 						<label for="name">{{ lang.name }}</label><br />
 						<input id="name" class="input" name="name" type="text" value="" size="30" required oninvalid="this.setCustomValidity('Votre nom SVP / Your name please')" oninput="this.setCustomValidity('')" /><br />
@@ -41,6 +41,9 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
+a{
+	font-size: 	1em;
+}
 section{
 	background: url("../assets/tile.png");
 }
@@ -51,11 +54,11 @@ section{
 
 .contactForm{
 	padding: 25px 0px;
-		width: 300px;
-		background-color: #4C524F;
-		border: 1px solid #5A5A5A;
-		border-radius: 3px;
-		margin: 0 auto;
+	width: 300px;
+	background-color: #4C524F;
+	border: 1px solid #5A5A5A;
+	border-radius: 3px;
+	margin: 0 auto;
 }
 
 
@@ -75,22 +78,24 @@ button{
 textarea{
 	width: 250px;
 }
+
 form{
 display: flex;
 flex-direction: column;
 align-items: center;
-
 }
 
 
 @media only screen /* iPhone 6, 6S, 7 and 8 */
   and (max-width: 500px)  {
-.contactText{
-	margin: 15px 15px;
+	.contactText{
+		margin: 15px 15px;
+	}
+
+	.contactForm {
+	     padding: 5px 0px; 
+
+	}
 }
-
-
-
-  }
 
 </style>
