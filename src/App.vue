@@ -147,7 +147,7 @@ p{
 @media only screen /* iPhone 6, 6S, 7 and 8 */
   and (max-width: 500px)  {
   #app{
-    font-size: .7em;
+    font-size: .8em;
   }
   .margins{
 margin: 0;
