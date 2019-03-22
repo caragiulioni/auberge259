@@ -6,7 +6,11 @@
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+<<<<<<< HEAD
+    "start": "node.server.js",
+=======
     "start": "npm run dev",
+>>>>>>> 9670e667683e42e16c2ed5425b49bf040cd1fc3f
     "build": "node build/build.js",
     "heroku-postbuild": "echo Skip build on Heroku"
   },
@@ -14,6 +18,10 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.15",
     "@fortawesome/free-solid-svg-icons": "^5.7.2",
     "@fortawesome/vue-fontawesome": "^0.1.5",
+<<<<<<< HEAD
+    "express": "^4.16.4",
+=======
+>>>>>>> 9670e667683e42e16c2ed5425b49bf040cd1fc3f
     "flickity-imagesloaded": "^2.0.0",
     "vue": "^2.5.2",
     "vue-agile": "^0.3.7",
