@@ -3,6 +3,7 @@
   	<section>
   		<div class="headings"><a name="Contact"><h2>Contact</h2></a></div>
   			<div class="contactForm">
+<<<<<<< HEAD
 				<form id="contact_form" action="http://www.focuspocus.io/magic/johnhatzmtl@gmail.com" method="POST" enctype="multipart/form-data">
 					<div class="inputs">
 						<label for="name">{{ lang.name }}</label><br />
@@ -15,6 +16,20 @@
 					<div class="inputs">
 						<label for="message">{{ lang.message }}</label><br />
 						<textarea id="message" class="input" name="message" required oninvalid="this.setCustomValidity('Votre message SVP / Your message please')" oninput="this.setCustomValidity('')" ></textarea><br />
+=======
+				<form id="contact_form" action="https://formspree.io/johnhatzmtl@gmail.com" method="POST" enctype="multipart/form-data">
+					<div class="inputs">
+						<label for="name">{{ lang.name }}</label><br />
+						<input id="name" class="input" name="name" type="text" value="" size="30" required/><br />
+					</div>	
+					<div class="inputs">
+						<label for="email">{{ lang.email }}</label><br />
+						<input id="email" class="input" name="email" type="text" value="" size="30" required/><br/>
+					</div>
+					<div class="inputs">
+						<label for="message">{{ lang.message }}</label><br />
+						<textarea id="message" class="input" name="message" required></textarea><br />
+>>>>>>> 90d2f7706c8e48c37a63afa6c06532f608cb5282
 					</div>
 					<div class="">
 						<submit v-bind:lang="lang"></submit>

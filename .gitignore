@@ -1,5 +1,9 @@
 .DS_Store
 node_modules/
+<<<<<<< HEAD
+=======
+/dist/
+>>>>>>> 90d2f7706c8e48c37a63afa6c06532f608cb5282
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

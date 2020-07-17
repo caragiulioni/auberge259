@@ -4,7 +4,11 @@
   		<div class="footer">
   			<p>© 2017 auberge 259</p>
   		  <p>259 rue st-catherine east, montréal</p>
+<<<<<<< HEAD
 			  <p>site par <a href="www.blockctrl.com">www.blockctrl.com</a></p>
+=======
+			  <p>site par <a href="http://www.blockctrl.com">www.blockctrl.com</a></p>
+>>>>>>> 90d2f7706c8e48c37a63afa6c06532f608cb5282
 		  </div>
   	</footer>
   </div>
